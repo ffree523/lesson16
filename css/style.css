@@ -11,7 +11,6 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 20px 0px;
     padding: 0px 20px;
 }
 .head__nav {
@@ -95,6 +94,7 @@ a {
 .complete__company__logo {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 .product__automation {
     min-height: 700px;
@@ -331,19 +331,17 @@ a {
 .foot__signup-window {
     display: flex;
 }
-.foot__signup-obloj {
-    width: 461px;
-    background-color: #FFFFFF;
-    border: 1px solid #CFD2D3;
-    border-radius: 4px;
-}
+
 .foot__signup-enter {
     font-family: 'Arial';
     font-weight: 400;
     font-size: 15px;
     line-height: 17px;
     color: #878D90;
-    margin: 20px 0px 20px 39px;
+    width: 461px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 17px 0px 17px 39px;
 }
 .foot__signup-subscribe {
     padding: 20px 42px;
